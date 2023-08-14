@@ -19,6 +19,7 @@ public class MyController {
 
     @RequestMapping("/hello")
     public School Hello(){
-        return school;
+        
+        return "hello world";
     }
 }
