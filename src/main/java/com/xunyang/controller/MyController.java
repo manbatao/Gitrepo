@@ -17,8 +17,8 @@ public class MyController {
     private School school;
 
 
-    @RequestMapping("/hello")
-    public School Hello(){
+    @RequestMapping("/")
+    public String Hello(){
         
         return "hello world";
     }
